@@ -28,7 +28,7 @@ function App() {
           <Route
             index
             exact
-            path="/home"
+            path="/redefine-status-task"
             element={
               <Home
                 isDarkMode={isDarkMode}
