@@ -24,19 +24,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          <Route
-            index
-            exact
-            path="/home"
-            element={
-              <Home
-                isDarkMode={isDarkMode}
-                handleThemeChange={handleThemeChange}
-              />
-            }
-          />
-        </Routes>
+        <Home isDarkMode={isDarkMode} handleThemeChange={handleThemeChange} />
       </BrowserRouter>
       {/* <div className={isDarkMode ? "App-dark" : "App-light"}>
         <h1>Light and Dark Theme Example</h1>
